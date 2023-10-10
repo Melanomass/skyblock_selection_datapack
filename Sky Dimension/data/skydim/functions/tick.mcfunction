@@ -1,0 +1,1 @@
+execute as @a at @s if data entity @s {Dimension:"minecraft:overworld"} if score @s tsd matches 1 unless data entity @s SpawnY run function skydim:sr
